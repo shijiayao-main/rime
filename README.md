@@ -4,6 +4,23 @@
 ## 注意事项
 
 ### 字体安装
+
+macos
+```shell
+# 1. Noto CJK 全覆盖汉字（简繁日韩 99.9%）
+brew install --cask font-noto-sans-cjk-sc font-noto-serif-cjk-sc
+
+# 2. 花园明朝 HanaMin（超罕见字、古文、方言字）
+brew install --cask font-hanazono-mincho
+
+# 3. Noto 彩色 Emoji（解决黑白方框）
+brew install --cask font-noto-color-emoji
+
+# 4. 刷新字体缓存
+atsutil databases -removeUser
+```
+
+linux
 ```shell
 # 1. 安装 Noto CJK（覆盖99.9%常用/生僻汉字、简繁日韩）
 sudo apt update
