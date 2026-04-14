@@ -17,6 +17,7 @@ switches_engine:
       states: [ 地, 煋 ] #火星文
     - name: ascii_punct
       states: [ 。，, ．， ]
+      reset: 1
 
   engine:
     processors:
