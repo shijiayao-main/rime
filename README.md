@@ -62,7 +62,7 @@ mv -f librime-lua plugins/
 mkdir build && cd build
 
 # CMake 配置（自动识别 plugins 目录下的 librime-lua，自动处理所有依赖）
-cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_SHARED_LIBS=ON
+cmake .. -DCMAKE_BUILD_TYPE=Release -DBUILD_TEST=OFF -DBUILD_SHARED_LIBS=ON
 
 # 编译（根据 CPU 核心数自动并行）
 make -j$(nproc)
