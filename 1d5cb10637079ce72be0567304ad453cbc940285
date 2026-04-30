@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.15",
+  "base_commit_sha": "1d5cb10637079ce72be0567304ad453cbc940285",
+  "prompts": {
+    "238c92427b6ab17a": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "76fc27dc-2e5c-4a30-8993-3eff5ec0468a",
+        "model": "copilot/claude-sonnet-4.6"
+      },
+      "human_author": "shijiayao",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 1,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  }
+}
