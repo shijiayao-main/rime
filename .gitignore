@@ -9,8 +9,8 @@
 
 # 过滤个人配置
 *.userdb/
-# installation.yaml
-# user.yaml
+installation.yaml
+user.yaml
 # *.custom.yaml
 
 others/script/scel2txt/out/*
